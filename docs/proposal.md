@@ -6,4 +6,5 @@ used to run Big Data workloads across many enterprises and startups. While AWS E
 a great fit for running spark jobs, there are many challenges that one would face.
 
 ### Slow Startup
-EMR is supposed to be an ephemeral compute 
+EMR is supposed to be an ephemeral compute. It is recommended that an EMR cluster is
+started before jobs are started, and stopped once jobs complete. 
