@@ -8,3 +8,19 @@ a great fit for running spark jobs, there are many challenges that one would fac
 ### Slow Startup
 EMR is supposed to be an ephemeral compute. It is recommended that an EMR cluster is
 started before jobs are started, and stopped once jobs complete. 
+
+### Core + Task Scaling
+
+### Minimum 5 min frequency
+
+### Scaling in terms of number of instances
+
+### Static Scale up
+
+### Opaque scaling policy
+
+
+https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-scale-on-demand.html
+https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-managed-scaling.html
+https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-instance-fleet.html
+https://aws.amazon.com/blogs/big-data/best-practices-for-resizing-and-automatic-scaling-in-amazon-emr/
