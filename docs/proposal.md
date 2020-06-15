@@ -11,8 +11,13 @@ only run node managers. This means that core nodes can run jobs as well as provi
 for HDFS where task nodes only provide compute for the jobs running in the cluster.
 
 A common configuration for EMR cluster is to run 1 master node, a few core nodes (2-4) and
-many task nodes. In fact, task nodes are scaled up and down depending upon workload in the
-cluster.
+many task nodes. Task nodes are often scaled up and down depending upon workload in the
+cluster. AWS EMR provides
+[managed scaling](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-managed-scaling.html)
+to ease the task of scaling the nodes in the cluster. Combined with
+[Instance Fleet](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-instance-fleet.html),
+EMR provides flexibility to choose types of nodes, policy for scaling up and down etc. and allows
+a good balance of cost and resources for the users.
 
 ### Core + Task Scaling
 
